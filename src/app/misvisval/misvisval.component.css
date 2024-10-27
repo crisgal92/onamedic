@@ -1,0 +1,49 @@
+@media (min-width: 992px) {
+    #numeros-local {
+        margin: 48px 50px;
+        gap: 32px;
+    }
+}
+
+#mision{
+    margin: 50px auto;
+    border-radius: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 80%;
+    height: 600px;
+    box-shadow: 1px 1px 10px #555;
+    text-align: center;
+}
+#vision{
+    margin: 50px auto;
+    border-radius: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 80%;
+    height: 600px;
+    box-shadow: 1px 1px 10px #555;
+    text-align: center;
+}
+#valores{
+    margin: 50px auto;
+    border-radius: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 80%;
+    height: 600px;
+    box-shadow: 1px 1px 10px #555;
+    text-align: center;
+}
+
+section article h3, section article p {
+    margin: 1rem;
+    text-align: center;
+}
+

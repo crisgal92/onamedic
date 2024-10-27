@@ -1,0 +1,20 @@
+.navbar a{
+    color: #000;
+}
+
+.navbar-custom {
+    background-color: #7bdfdc48;
+}
+
+.btn-custom{
+    background-color: #3b9f9c;
+    color: white;
+}
+ 
+nav  a:hover{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    transition: font-size 0.3 ease, font-weight 0.3 ease;
+}

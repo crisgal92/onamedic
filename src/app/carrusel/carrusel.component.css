@@ -1,0 +1,11 @@
+.carousel-inner {
+    max-height: 50em;
+}
+
+.container {
+    width: 400px;
+    margin: 0 50 50 0 auto;
+    display: block;
+    float: center;
+    align-items: center;
+}
