@@ -1,9 +1,21 @@
+#section{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+
+
+
+
 @media (min-width: 992px) {
     #numeros-local {
         margin: 48px 50px;
         gap: 32px;
     }
 }
+
 
 #mision{
     margin: 50px auto;
@@ -12,7 +24,7 @@
     padding-bottom: 25px;
     padding-left: 5px;
     padding-right: 5px;
-    width: 80%;
+    width: 400px;
     height: 600px;
     box-shadow: 1px 1px 10px #555;
     text-align: center;
@@ -24,7 +36,7 @@
     padding-bottom: 25px;
     padding-left: 5px;
     padding-right: 5px;
-    width: 80%;
+    width: 400px;
     height: 600px;
     box-shadow: 1px 1px 10px #555;
     text-align: center;
@@ -36,7 +48,7 @@
     padding-bottom: 25px;
     padding-left: 5px;
     padding-right: 5px;
-    width: 80%;
+    width: 400px;
     height: 600px;
     box-shadow: 1px 1px 10px #555;
     text-align: center;
