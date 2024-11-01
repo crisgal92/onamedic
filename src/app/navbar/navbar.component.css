@@ -16,10 +16,10 @@
     transition: font-size 0.3 ease, font-weight 0.3 ease;
     margin: auto;
 }
-nav  a:hover{
+/* nav  a:hover{
     color: #000;
     font-size: 20px;
     font-weight: bold;
     margin: auto;
     transition: font-size 0.3 ease, font-weight 0.3 ease;
-}
+} */

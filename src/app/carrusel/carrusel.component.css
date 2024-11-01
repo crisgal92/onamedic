@@ -1,11 +1,32 @@
-.carousel-inner {
+/* .carousel-inner {
     max-height: 50em;
 }
-
-.container {
+ */
+/* .container {
     width: 400px;
     margin: 0 50 50 0 auto;
     display: block;
     float: center;
     align-items: center;
+} */
+
+.container{
+
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    transition: all ease 0.5s;
+}
+.container img:hover{
+    width: 50%;
 }
