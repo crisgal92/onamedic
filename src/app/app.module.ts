@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CarruselComponent } from './carrusel/carrusel.component';
 import { MisvisvalComponent } from './misvisval/misvisval.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CarruselComponent,
-    MisvisvalComponent
+    MisvisvalComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,

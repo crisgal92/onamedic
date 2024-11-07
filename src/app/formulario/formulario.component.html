@@ -1,0 +1,36 @@
+<div class="container mt-5">
+    <div id="titulo-formulario" class="text-center mb-4">
+      <div><img src="./IMG/contacto.jpg" alt="contacto" class="img-fluid"></div>
+    </div>
+      <h2 class="mb-4">Contacto</h2>
+      <form>
+          <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Cristian Galván">
+          </div>
+          <div class="mb-3">
+              <label for="email" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="email" placeholder="cristian_agm92@hotmail.com">
+          </div>
+          <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje aquí"></textarea>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Preferencia de contacto</label>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="contactoPreferencia" id="preferenciaEmail" value="email" checked>
+                  <label class="form-check-label" for="preferenciaEmail">
+                      Email
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="contactoPreferencia" id="preferenciaTelefono" value="telefono">
+                  <label class="form-check-label" for="preferenciaTelefono">
+                      Teléfono
+                  </label>
+              </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+  </div>
