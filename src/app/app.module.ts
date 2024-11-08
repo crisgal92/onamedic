@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CarruselComponent } from './carrusel/carrusel.component';
 import { MisvisvalComponent } from './misvisval/misvisval.component';
 import { FormularioComponent } from './formulario/formulario.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FormularioComponent } from './formulario/formulario.component';
     NavbarComponent,
     CarruselComponent,
     MisvisvalComponent,
-    FormularioComponent
+    FormularioComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
