@@ -3,20 +3,12 @@
     flex-direction: row;
     justify-content: end;
 }
-
-
-
-
-
-
 @media (min-width: 992px) {
     #numeros-local {
         margin: 48px 50px;
         gap: 32px;
     }
 }
-
-
 #mision{
     margin: 50px auto;
     border-radius: 5px;
