@@ -6,20 +6,10 @@
     background-color: #7bdfdcc9;
 }
 
-.btn-custom{
-    background-color: #3b9f9c;
-    color: white;
-}
  
-.btn :hover{
+nav div li a:hover{
     color: #000;
-    transition: font-size 0.3 ease, font-weight 0.3 ease;
+    font-weight: bolder;
     margin: auto;
-}
-nav  a:hover{
-    color: #000;
-    font-size: 20px;
-    font-weight: bold;
-    margin: auto;
-    transition: font-size 0.3 ease, font-weight 0.3 ease;
+    transition:  0.3 ease-in-out,  0.3 ease-in-out;
 }
