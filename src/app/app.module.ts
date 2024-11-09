@@ -9,6 +9,8 @@ import { MisvisvalComponent } from './misvisval/misvisval.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardComponent } from './card/card.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CardComponent } from './card/card.component';
     MisvisvalComponent,
     FormularioComponent,
     FooterComponent,
-    CardComponent
+    CardComponent,
+    ContactoComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
