@@ -1,0 +1,23 @@
+
+.container {
+    margin: 60px auto;
+    /* width: 400px; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    transition: all ease-in-out .3s;
+}
+
+.container img:hover{
+    width: 48%;
+}

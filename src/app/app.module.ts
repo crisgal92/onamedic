@@ -8,6 +8,7 @@ import { CarruselComponent } from './carrusel/carrusel.component';
 import { MisvisvalComponent } from './misvisval/misvisval.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { FooterComponent } from './footer/footer.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     CarruselComponent,
     MisvisvalComponent,
     FormularioComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
