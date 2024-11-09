@@ -4,8 +4,10 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { IndexComponent } from './index/index.component';
 
 const routes: Routes = [
+ { path: '', component: IndexComponent },
   {path: 'contacto', component: ContactoComponent},
-  {path: 'index', component:  IndexComponent }
+  {path: 'index', component:  IndexComponent },
+  { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
 @NgModule({
