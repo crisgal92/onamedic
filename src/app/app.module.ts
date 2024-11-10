@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CardComponent } from './card/card.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { IndexComponent } from './index/index.component';
+import { EquiposComponent } from './equipos/equipos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { IndexComponent } from './index/index.component';
     FooterComponent,
     CardComponent,
     ContactoComponent,
-    IndexComponent
+    IndexComponent,
+    EquiposComponent
   ],
   imports: [
     BrowserModule,
