@@ -1,67 +1,78 @@
-
-.inicio {
+#inicio {
     display: flex;
-    flex-direction: column;
-     align-items: first baseline;
-     max-width: 1350px;
-     margin: 0 auto;
-     padding: 20px;
-     gap: 20px;
-     /* border: 1px solid black; */
- 
-}
-
-.imgLogo {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    /* padding: 50px; */
-}
-
-#terason p {
-    font-size: 20px;
-
-}
-
-.container {
-    display: flex;
-   /*  flex-direction: column; */
-    align-items: center;
-    max-width: 1350px;
+    flex-direction: row;
+    max-width: 1300px;
+    height: auto; 
     margin: 0 auto;
     padding: 20px;
     gap: 20px;
-    /* border: 1px solid black; */
-}
-
-.imgPrincipal{
-    width: 800px;
-    height:700px;
 /*     border: 1px solid black; */
 }
 
-#modeloEquipo{
-    font-weight: bold;
-    font-size: 50px;
-
-
-}
-.info {
-    display: inline-block;
-    vertical-align: top;
-    width: 1000px;
-    margin: 10px;
-    padding: 30px;
-    text-align: left;
-    font-size: 20px;
-    /* border: 1px solid black; */
+#terason img {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+#inicio p {
+    font-size: 15px;
+    max-width: 600px;
+    
+}
 
-
-/* .inicio {
+#terason3200{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    max-width: 1800px;
+    height: auto; 
     margin: 0 auto;
-    width: 2500px;
-    font-size: 40px; */
+    padding: 20px;
+    gap: 20px;
+/*     border: 1px solid black; */
+}
+#terason3200 img {
+    width: 500px;
+    height: 650px;
+    padding: 30px;
     /* border: 1px solid black; */
-/* } */
+}
+
+#info {
+    width: 800px;
+    height: 700px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+#info h1 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+#info h2 {
+    font-size: 30px;
+}
+
+#info p {
+    font-size: 20px;
+}
+
+#imgMuestra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1800px;
+    height: auto; 
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+/*     border: 1px solid black; */
+}
+
+#imgMuestra img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
