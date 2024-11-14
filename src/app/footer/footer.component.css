@@ -72,16 +72,7 @@ margin-bottom: 15px;
     /* margin: 0 5px; */
 }
 
-#redesSociales ion-icon {
-    font-size: 50px;
-    transition: transform 0.3s ease, color 0.3s ease;
-    cursor: pointer;
-}
 
-#redesSociales ion-icon:hover {
-    transform: translateY(-5px) scale(1);
-    color: #000000;
-}
 
 #politicas {
  display: flex;
@@ -106,5 +97,14 @@ margin-bottom: 15px;
 .accesoCorporativo:hover {
     transform: translateY(-3px) scale(1);
     color: #000000;
+}
+
+li a{
+    color: #000;
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+li a:hover{
+    transform: translateY(-5px) scale(1);
 }
 
