@@ -1,8 +1,8 @@
 /* Inicio de equipos terason */
-#inicio {
+.inicio {
     display: flex;
     flex-direction: row;
-    max-width: 1400px;
+    max-width: 1300px;
     height: auto; 
     margin: 0 auto;
     padding: 20px;
@@ -15,8 +15,8 @@
     margin-bottom: 30px;
 }
 
-#inicio p {
-    font-size: 20px;
+.inicio p {
+    font-size: 18px;
     max-width: 600px;
     
 }
@@ -136,3 +136,5 @@
     height: auto;
     /* border-radius: 5px; */
 }
+
+/* Inicio de equipos chison */
