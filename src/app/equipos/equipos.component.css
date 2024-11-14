@@ -35,16 +35,16 @@
 /*     border: 1px solid black; */
 }
 #terason3200 img {
-    width: 500px;
-    height: 650px;
+    width: 450px;
+    height: 550px;
     padding: 30px;
     /* border: 1px solid black; */
 }
 
 #info {
     width: 800px;
-    height: 700px;
-    padding: 10px;
+    height: 550px;
+    padding: 5px;
     /* border: 1px solid black; */
 }
 
@@ -67,15 +67,15 @@
     justify-content: center;
     max-width: 1800px;
     height: auto; 
-    margin: 0 auto;
-    padding: 20px;
-    gap: 20px;
-/*     border: 1px solid black; */
+    margin-bottom: 15px;
+    padding: 1px;
+    gap: 2px;
+    /* border: 1px solid black; */
 }
 
 #imgMuestra img {
-    width: 300px;
-    height: auto;
+    width: 250px;
+    height: 200px;
     border-radius: 5px;
 }
 
