@@ -1,7 +1,7 @@
 
 .container {
     margin: 60px auto;
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
     /* width: 400px; */
     height: 500px;
     display: flex;
@@ -11,8 +11,8 @@
 
 .container img{
 
-    width: 50%;
-    height: 110%;
+    width: 30%;
+    height: 120%;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid #fff;
@@ -20,5 +20,5 @@
 }
 
 .container img:hover{
-    width: 40%;
+    width: 50%;
 }
