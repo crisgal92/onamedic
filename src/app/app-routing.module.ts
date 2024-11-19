@@ -9,7 +9,9 @@ const routes: Routes = [
  { path: '', component: IndexComponent }, // Te sirve para cuando el enlace esta en blanco nos manda directo al comoponente index
   {path: 'contacto', component: ContactoComponent},
   {path: 'index', component:  IndexComponent },
+  {path:'index/contacto', component: ContactoComponent},
   {path:'equipo', component: EquiposComponent},
+  {path:'equipo/contacto', component: ContactoComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 

@@ -10,6 +10,16 @@
 /*     border: 1px solid black; */
 }
 
+.btn-custom{
+    background-color: #3b9f9c;
+    color: #fff;
+    text-decoration: none;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
 #terason img {
     margin-top: 30px;
     margin-bottom: 30px;
