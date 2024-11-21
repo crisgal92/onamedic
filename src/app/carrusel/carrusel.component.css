@@ -1,6 +1,10 @@
 .container{
     padding-bottom: 10rem;
 }
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
 .btn-custom{
     background-color: #3b9f9c;
     color: #fff;
