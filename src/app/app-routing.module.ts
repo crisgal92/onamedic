@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContactoComponent } from './contacto/contacto.component';
 import { IndexComponent } from './index/index.component';
 import { EquiposComponent } from './equipos/equipos.component';
+import { LoginComponent } from './authentication/login/login.component';
 
 //En esta parte se muestra las rutas para el url y el componente al que le llama 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:'index/contacto', component: ContactoComponent},
   {path:'equipo', component: EquiposComponent},
   {path:'equipo/contacto', component: ContactoComponent},
+  {path:'login', component: LoginComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 

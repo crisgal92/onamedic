@@ -10,6 +10,11 @@
     text-align: center;
 }
 
+h3 a {
+    text-decoration: none;
+    color: #000;
+}
+
 #producto, #servicios, #contacto {
     display: inline-block;
     vertical-align: top;
@@ -107,4 +112,3 @@ li a{
 li a:hover{
     transform: translateY(-5px) scale(1);
 }
-

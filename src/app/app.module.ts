@@ -12,6 +12,8 @@ import { CardComponent } from './card/card.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { IndexComponent } from './index/index.component';
 import { EquiposComponent } from './equipos/equipos.component';
+import { LoginComponent } from './authentication/login/login.component';
+import { RegisterComponent } from './authentication/register/register.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { EquiposComponent } from './equipos/equipos.component';
     CardComponent,
     ContactoComponent,
     IndexComponent,
-    EquiposComponent
+    EquiposComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
