@@ -1,10 +1,12 @@
 
 /* Formulario de contacto */
 form {
+    width: 49%;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(185, 185, 185);
     margin: 20px 0;
     border-radius: 8px;
+    
 }
 
 
