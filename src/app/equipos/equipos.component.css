@@ -149,3 +149,25 @@
 }
 
 /* Inicio de equipos chison */
+
+.inicioChison {
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    height: auto; 
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+/*     border: 1px solid black; */
+}
+
+#chison img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inicioChison p {
+    font-size: 18px;
+    max-width: 600px;
+    
+}
