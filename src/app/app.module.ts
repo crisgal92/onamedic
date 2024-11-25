@@ -14,6 +14,8 @@ import { IndexComponent } from './index/index.component';
 import { EquiposComponent } from './equipos/equipos.component';
 import { LoginComponent } from './authentication/login/login.component';
 import { RegisterComponent } from './authentication/register/register.component';
+import { ServiciosComponent } from './servicios/servicios.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { RegisterComponent } from './authentication/register/register.component'
     IndexComponent,
     EquiposComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ServiciosComponent,
+    NosotrosComponent
   ],
   imports: [
     BrowserModule,
