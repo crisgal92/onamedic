@@ -12,28 +12,34 @@
         <!-- <li class="nav-item">
           <a class="nav-link active fs-5" aria-current="page" routerLink="index" id="boton">Pagina Principal</a>
         </li> -->
+
+        <!-- Inicia equipos -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
             Equipos
           </a>
           <ul class="dropdown-menu ">
-            <li><a class="dropdown-item" routerLink="equipo" id="boton">Terason</a></li>
-            <li><a class="dropdown-item" routerLink="equipo" id="boton">Chison</a></li>
-            
-            
+            <li><a class="dropdown-item" routerLink="equipo" fragment="terason" id="boton">Terason</a></li>
+            <li><a class="dropdown-item" routerLink="equipo" fragment="chison" id="boton">Chison</a></li>
           </ul>
+
+          <!-- Inicia servicios -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="menu">
             Servicios
           </a>
           <ul class="dropdown-menu text-black">
-              <li><a class="dropdown-item" routerLink="servicios" id="boton">Gestion de servicios TI</a></li>
-            <li><a class="dropdown-item" routerLink="servicios" id="boton">Mantenimiento Preventivo</a></li>
-            <li><a class="dropdown-item" routerLink="servicios" id="boton">Mantenimiento Correctivo</a></li>
+              <li><a class="dropdown-item" routerLink="servicios" fragment="ti" id="boton">Gestion de servicios TI</a></li>
+            <li><a class="dropdown-item" routerLink="servicios" fragment="preventivo" id="boton">Mantenimiento Preventivo</a></li>
+            <li><a class="dropdown-item" routerLink="servicios" fragment="correctivo" id="boton">Mantenimiento Correctivo</a></li>
           </ul>
+
+          <!-- Inicia nosotros -->
             <li class="nav-item">
               <a class="nav-link active fs-5" aria-current="page" routerLink="nosotros" id="boton">Nosotros</a>
             </li>  
+
+          <!-- Inicia contacto -->
             <li class="nav-item">
               <a class="nav-link active fs-5" aria-current="page" routerLink="contacto" id="boton">Contacto</a>
             </li>  
