@@ -1,0 +1,94 @@
+/* Contenedor principal */
+.card {
+    max-width: 85.5%; /* Reduce el ancho de las pantallas */
+    margin: 50px auto; /* centra el contenido */
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Espacios entre tarjetas */
+    padding: 30px; /* espacio de los elementos internos */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; /* espacios entre las lineas */
+    color: #333;
+}
+
+/* Servicio TI */
+.servicioTi  {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+    /* border: 1px solid black; */
+}
+
+.servicioTi img {
+    max-width: 40%;
+    height: auto;
+    object-fit: contain;
+
+}
+
+#info {
+    flex: 1;
+    padding: 10px;
+}
+
+@media (max-width:768px) {
+    .servicioTi {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .servicioTi img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+/* Servicios Preventivos */
+
+.preventivo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.preventivo img {
+    max-width: 40%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width:768px) {
+    .preventivo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .preventivo img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+/* Servicio Correctivo */
+
+.correctivo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.correctivo img {
+    max-width: 40%;
+    height: auto;
+    object-fit: contain;
+}
+@media (max-width:768px) {
+    .correctivo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .correctivo img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
