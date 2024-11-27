@@ -1,13 +1,18 @@
 /* Inicio de equipos terason */
-.inicio {
+#inicio {
     display: flex;
-    flex-direction: row;
-    max-width: 1300px;
     height: auto; 
     margin: 0 auto;
     padding: 20px;
     gap: 20px;
+}
 
+
+
+.img-fluid{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 .btn-custom{
@@ -21,17 +26,24 @@
 }
 
 #terason img {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.inicio p {
+#inicio p {
     font-size: 18px;
     max-width: 600px;
     
 }
 
 /* Equipo terason 3200 */
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
 #terason3200{
     display: flex;
     flex-direction: row;
@@ -42,20 +54,37 @@
     margin: 0 auto;
     padding: 20px;
     gap: 20px;
-/*     border: 1px solid black; */
-}
-#terason3200 img {
-    width: 450px;
-    height: 550px;
-    padding: 30px;
-    /* border: 1px solid black; */
 }
 
-#info {
+#terason3200 p{
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  padding: 1rem;
+}
+
+
+#terason3200 img {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    
+    
+}
+
+#terason3300 p{
+    max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  padding: 1rem;
+}
+
+/* #info {
     width: 800px;
     height: 550px;
     padding: 5px;
-    /* border: 1px solid black; */
 }
 
 #info h1 {
@@ -69,7 +98,7 @@
 
 #info p {
     font-size: 20px;
-}
+} */
 
 #imgMuestra {
     display: flex;
@@ -150,7 +179,7 @@
 
 /* Inicio de equipos chison */
 
-.inicioChison {
+#inicioChison {
     display: flex;
     flex-direction: row;
     max-width: 1300px;
@@ -170,4 +199,17 @@
     font-size: 18px;
     max-width: 600px;
     
+}
+
+
+@media screen and (max-width: 600px){
+    .container-fluid{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  div p {
+    font-size: 10px;
+  }
 }

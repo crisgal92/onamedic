@@ -1,10 +1,12 @@
 
 /* Formulario de contacto */
 form {
-    width: 49%;
+    width: 75%;
+    height: 75%;
     padding: 20px;
     background-color: rgb(185, 185, 185);
-    margin: 20px 0;
+
+    margin: 20px auto ;
     border-radius: 8px;
     
 }
@@ -13,4 +15,16 @@ form {
 .btn-custom{
     background-color: #3b9f9c;
     color: #fff;
+}
+.container-fluid-1{
+    margin: 25px;
+    
+}
+
+@media screen and (max-width: 600px){
+    .container-fluid-1{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 50%;
+    }
 }
