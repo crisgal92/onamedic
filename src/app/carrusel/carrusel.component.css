@@ -19,11 +19,12 @@
     display: inline-block;
 }
 .btn-custom:hover{
-    color: #fff;
+    color: #3b9f9c;
 }
 .btn-custom::after{
-    content: "";
-  background: #000305; /* color de fondo hover */
+  content: "";
+  background: #ffffff; /* color de fondo hover */
+  color: #3b9f9c;
   position: absolute;
   z-index: -1;
   padding: 16px 20px;
@@ -36,6 +37,6 @@
   transition: all 0.3s ease;
 }
 .btn-custom:hover::after{
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
     transform: skewX(-45deg) scale(1, 1);
 }
