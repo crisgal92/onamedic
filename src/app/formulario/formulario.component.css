@@ -1,16 +1,20 @@
 
 /* Formulario de contacto */
 form {
-    width: 75%;
-    height: 75%;
-    padding: 20px;
+    /* width: 400px; 
+    /* height: 300px; */
+    width: 70%; 
+    padding: 15px;
     background-color: rgb(185, 185, 185);
-
     margin: 20px auto ;
     border-radius: 8px;
     
 }
-
+#mapa div{
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
 
 .btn-custom{
     background-color: #3b9f9c;
@@ -27,4 +31,5 @@ form {
         flex-direction: column;
         width: 120%;
     }
+    
 }

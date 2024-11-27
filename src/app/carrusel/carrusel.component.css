@@ -23,7 +23,7 @@
 }
 .btn-custom::after{
   content: "";
-  background: #ffffff; /* color de fondo hover */
+  background: #000000; /* color de fondo hover */
   color: #3b9f9c;
   position: absolute;
   z-index: -1;
