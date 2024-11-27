@@ -13,14 +13,14 @@
 }
 .btn a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 .btn-custom{
     max-width: 81.5%;
     margin: 90px auto;
     margin-top: 0px;
     background-color: #3b9f9c;
-    color: #fff;
+    color: #000000;
     font-size: larger;
     width: 101%;
     border: 5rem 5rem;
@@ -36,7 +36,7 @@
 }
 .btn-custom::after{
   content: "";
-  background: #000000; /* color de fondo hover */
+  background: #ffffff; /* color de fondo hover */
   color: #3b9f9c;
   position: absolute;
   z-index: -1;
