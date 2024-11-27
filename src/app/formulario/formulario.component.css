@@ -16,15 +16,15 @@ form {
     background-color: #3b9f9c;
     color: #fff;
 }
+
 .container-fluid-1{
     margin: 25px;
-    
 }
 
 @media screen and (max-width: 600px){
     .container-fluid-1{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         flex-direction: column;
-        width: 50%;
+        width: 120%;
     }
 }
