@@ -1,0 +1,25 @@
+<div class="container">
+    <h2>Listado de Customer</h2>
+    <a class="btn btn-primary" routerLink="/customers/add">crear customer  </a>
+    <table class="table">
+        <thead>
+          <tr >
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Correo</th>
+            <th scope="col">Descripcion</th>
+            <th scope="col">Eliminar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let c of clientes">
+            <th scope="row"> {{c.id}} </th>
+            <td>{{c.nombre}}</td>
+            <td>{{c.correo}}</td>
+            <td>{{c.descripcion}}</td>
+            <td><button class="btn btn-danger" (click)="deleteCliente(c.id)">Eliminar</button></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
