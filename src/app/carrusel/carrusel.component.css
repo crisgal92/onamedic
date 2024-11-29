@@ -3,13 +3,19 @@
 }
 .btn a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
+    transition: 300ms color ease-in;
 }
+
+.btn:hover a{
+    color: #3b9f9c;
+}
+
 .btn-custom{
     background-color: #3b9f9c;
     color: #fff;
     font-size: larger;
-    width: 101%;
+    width: 100%;
     border: 5rem 5rem;
     padding: 16px 20px;
     border-radius: 3px; /* redondear bordes */
@@ -18,9 +24,7 @@
     overflow: hidden;
     display: inline-block;
 }
-.btn-custom:hover{
-    color: #3b9f9c;
-}
+
 .btn-custom::after{
   content: "";
   background: #ffffff; /* color de fondo hover */
@@ -37,6 +41,6 @@
   transition: all 0.3s ease;
 }
 .btn-custom:hover::after{
-    transition: all 0.2s ease-out;
+    transition: all 0.4s ease-out;
     transform: skewX(-45deg) scale(1, 1);
 }
