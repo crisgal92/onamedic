@@ -23,4 +23,10 @@ export class ClienteService {
     return this.http.delete(this.api+'/'+id);
   }
 
+  // verificar el codigo del update
+
+  updateCliente(id: number, cliente: Cliente): Observable<Cliente> {
+    return this.http.put<Cliente>(`${this.api}/${id}`, cliente); 
+  }
+
 }

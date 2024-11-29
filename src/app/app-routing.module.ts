@@ -21,6 +21,7 @@ const routes: Routes = [
   {path:'servicios/contacto', component: ContactoComponent},
   {path:'nosotros', component: NosotrosComponent},
   {path:'nosotros/contacto', component: ContactoComponent},
+  {path:'login/listado', component: ClienteListComponent},
   {path:'listado', component: ClienteListComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];

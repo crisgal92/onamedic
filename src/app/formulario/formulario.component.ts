@@ -16,12 +16,30 @@ constructor (private clienteService : ClienteService){}
 
   ngOnInit(): void {   
   }
-  addCliente(){
+  addCliente() {
     let cliente = new Cliente(this.id, this.nombre, this.correo, this.descripcion);
     console.log(cliente);
+  
     this.clienteService.createCliente(cliente).subscribe(
-      res=> console.log(res)
+      res => {
+        console.log(res);
+        alert('Cliente registrado correctamente'); // Mostrar alerta
+        this.limpiarFormulario(); // Limpia el formulario después de guardar
+      },
+      err => {
+        console.error('Error al registrar cliente:', err);
+        alert('Hubo un error al registrar el cliente'); // Alerta de error
+      }
     );
   }
+  
+  // Método para limpiar el formulario
+  limpiarFormulario() {
+    this.id = 0;
+    this.nombre = '';
+    this.correo = '';
+    this.descripcion = '';
+  }
+  }
 
-}
+
