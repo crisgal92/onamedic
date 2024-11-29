@@ -23,7 +23,7 @@ constructor (private clienteService : ClienteService){}
     this.clienteService.createCliente(cliente).subscribe(
       res => {
         console.log(res);
-        alert('Cliente registrado correctamente'); // Mostrar alerta
+        alert('Gracias Nostros te contactamos'); // Mostrar alerta
         this.limpiarFormulario(); // Limpia el formulario después de guardar
       },
       err => {

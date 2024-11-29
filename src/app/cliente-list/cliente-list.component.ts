@@ -22,7 +22,7 @@ export class ClienteListComponent implements OnInit{
       this.clienteService.getClienteList().subscribe(
         data =>{
           this.clientes = data
-          console.log(this.clientes)
+          //console.log(this.clientes)
         } 
       );
     }
