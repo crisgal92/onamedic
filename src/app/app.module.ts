@@ -16,6 +16,10 @@ import { LoginComponent } from './authentication/login/login.component';
 import { RegisterComponent } from './authentication/register/register.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
+import { provideHttpClient, withFetch } from '@angular/common/http';
+import { ClienteListComponent } from './cliente-list/cliente-list.component';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms'; 
 
 @NgModule({
   declarations: [
@@ -32,14 +36,19 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
     LoginComponent,
     RegisterComponent,
     ServiciosComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    ClienteListComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
+    FormsModule
+    
+    
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),provideHttpClient(withFetch())
   ],
   bootstrap: [AppComponent]
 })

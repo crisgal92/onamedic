@@ -10,27 +10,27 @@
           <form class="row">
               <div class="mb-3">
                   <!-- <label for="nombre" class="form-label">Nombre</label> -->
-                  <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                  <input [(ngModel)]="nombre" class="form-control" id="nombre" placeholder="Nombre" name="nombre">
               </div>
               <div class="mb-3">
                   <!-- <label for="email" class="form-label">Correo Electrónico</label> -->
-                  <input type="email" class="form-control" id="email" placeholder="ejemplo@gmail.com">
+                  <input [(ngModel)]="correo" type="email" class="form-control" id="email" placeholder="ejemplo@gmail.com" name ="correo">
               </div>
               <div class="mb-3">
                   <!-- <label for="mensaje" class="form-label">Mensaje</label> -->
-                  <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje aquí"></textarea>
+                  <textarea [(ngModel)]="descripcion" class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje aquí" name="descripcion"></textarea>
               </div>
-                  <div class="mb-3">
+                  <!-- <div class="mb-3"> -->
                     <!-- <label class="form-label" for="especialidad">Especialidades</label> -->
-                    <select class="form-select" id="especialidad" name="especialida">
+                    <!-- <select class="form-select" id="especialidad" name="especialida">
                         <option selected>Especialidades:</option>
                         <option value="anestologia">Anestesiología</option>
                         <option value="angiologia">Angiología </option>
                         <option value="cardiologia">Cardiología </option>
                         <option value="gine">Ginecología y obstetricia</option>
                     </select>       
-                </div>
-              <button type="submit" class="btn btn-custom">Enviar</button>
+                </div> -->
+              <button type="submit" class="btn btn-custom" (click)="addCliente()">Enviar</button>
           </form>
           
       </div>

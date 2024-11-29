@@ -6,6 +6,7 @@ import { EquiposComponent } from './equipos/equipos.component';
 import { LoginComponent } from './authentication/login/login.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
+import { ClienteListComponent } from './cliente-list/cliente-list.component';
 
 //En esta parte se muestra las rutas para el url y el componente al que le llama 
 const routes: Routes = [
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path:'servicios/contacto', component: ContactoComponent},
   {path:'nosotros', component: NosotrosComponent},
   {path:'nosotros/contacto', component: ContactoComponent},
+  {path:'listado', component: ClienteListComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
