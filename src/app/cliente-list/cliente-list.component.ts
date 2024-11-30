@@ -43,7 +43,8 @@ export class ClienteListComponent implements OnInit{
         this.clienteService.updateCliente(this.clienteSeleccionado.id, this.clienteSeleccionado).subscribe(
           response => {
             console.log('Cliente actualizado:', response);
-            alert('Cliente actualizado correctamente.');
+            alert('Comentario guardado gracias.');
+            this.listCliente(); 
             this.clienteSeleccionado = null; // Limpiar selección
           },
           error => {
@@ -53,6 +54,7 @@ export class ClienteListComponent implements OnInit{
         );
       }
     }
+    
     
 
 }

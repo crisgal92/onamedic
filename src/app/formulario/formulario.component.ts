@@ -11,13 +11,16 @@ export class FormularioComponent implements OnInit{
   id: number=0;
 nombre: string ='';
 correo : string='';
-descripcion: string ='';
+mensaje: string ='';
+comentario:string='';
+telefono: number =0;
 constructor (private clienteService : ClienteService){}
 
   ngOnInit(): void {   
   }
   addCliente() {
-    let cliente = new Cliente(this.id, this.nombre, this.correo, this.descripcion);
+    
+    let cliente = new Cliente(this.id, this.nombre, this.correo, this.mensaje,this.comentario,this.telefono);
     console.log(cliente);
   
     this.clienteService.createCliente(cliente).subscribe(
@@ -38,7 +41,9 @@ constructor (private clienteService : ClienteService){}
     this.id = 0;
     this.nombre = '';
     this.correo = '';
-    this.descripcion = '';
+    this.mensaje = '';
+    this.comentario='';
+    this.telefono=0;
   }
   }
 

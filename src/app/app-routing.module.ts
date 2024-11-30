@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { ContactoComponent } from './contacto/contacto.component';
 import { IndexComponent } from './index/index.component';
 import { EquiposComponent } from './equipos/equipos.component';
@@ -7,6 +7,11 @@ import { LoginComponent } from './authentication/login/login.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ClienteListComponent } from './cliente-list/cliente-list.component';
+
+const routerOptions: ExtraOptions = {
+  anchorScrolling: 'enabled', // Habilita el desplazamiento a anclas
+  scrollPositionRestoration: 'enabled' // Opcional: Mantiene la posición al volver
+};
 
 //En esta parte se muestra las rutas para el url y el componente al que le llama 
 const routes: Routes = [
