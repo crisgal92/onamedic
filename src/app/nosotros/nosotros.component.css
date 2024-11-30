@@ -11,16 +11,19 @@
 .container{
     padding-bottom: 10rem;
 }
+.btn:hover a{
+    color: #3b9f9c;
+}
 .btn a {
     text-decoration: none;
-    color: #000000;
+    color: #ffff;
 }
 .btn-custom{
     max-width: 81.5%;
     margin: 90px auto;
     margin-top: 0px;
     background-color: #3b9f9c;
-    color: #000000;
+    color: #fff;
     font-size: larger;
     width: 101%;
     border: 5rem 5rem;
@@ -35,19 +38,19 @@
     color: #3b9f9c;
 }
 .btn-custom::after{
-  content: "";
-  background: #ffffff; /* color de fondo hover */
-  color: #3b9f9c;
-  position: absolute;
-  z-index: -1;
-  padding: 16px 20px;
-  display: block;
-  left: -20%;
-  right: -20%;
-  top: 0;
-  bottom: 0;
-  transform: skewX(-45deg) scale(0, 1);
-  transition: all 0.3s ease;
+    content: "";
+    background: #ffffff; /* color de fondo hover */
+    color: #3b9f9c;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
 }
 .btn-custom:hover::after{
     transition: all 0.2s ease-out;
