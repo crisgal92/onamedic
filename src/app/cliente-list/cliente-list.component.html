@@ -1,58 +1,3 @@
-<!-- <div class="container-fluid">
-    <h2>Listado de los Clientes</h2>
-    
-    <table class="table">
-        <thead>
-          <tr >
-            <th scope="col">ID</th>
-            <th scope="col">Nombre</th>
-            <th scope="col">Correo</th>
-            <th scope="col">Mensaje</th>
-            <th scope="col">Comentarios</th>
-            <th scope="col">Acciones</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let c of clientes">
-            <th scope="row"> {{c.id}} </th>
-            <td>{{c.nombre}}</td>
-            <td>{{c.correo}}</td>
-            <td>{{c.mensaje}}</td>
-            <td>{{c.comentario}}</td>
-            <td>
-              <button class="btn btn-warning me-2" (click)="editarCliente(c)">Editar</button>
-              <button class="btn btn-danger" (click)="deleteCliente(c.id)">Eliminar</button>
-            </td>
-          </tr>
-          
-        </tbody>
-      </table>
-    </div>
-
-    <div *ngIf="clienteSeleccionado" class="mt-4">
-      <h3>Editar Cliente</h3>
-      <form (ngSubmit)="guardarCliente()">
-        <div class="mb-3">
-          <label for="nombre" class="form-label">Nombre</label>
-          <input [(ngModel)]="clienteSeleccionado.nombre" name="nombre" class="form-control" id="nombre" disabled>
-        </div>
-        <div class="mb-3">
-          <label for="correo" class="form-label">Correo Electrónico</label>
-          <input [(ngModel)]="clienteSeleccionado.correo" name="correo" class="form-control" id="correo" disabled>
-        </div>
-        <div class="mb-3">
-          <label for="descripcion" class="form-label">Mensaje</label>
-          <textarea [(ngModel)]="clienteSeleccionado.mensaje" name="mensaje" class="form-control" id="descripcion" disabled></textarea>
-        </div>
-        <div class="mb-3">
-          <label for="descripcion" class="form-label">Comentarios</label>
-          <textarea [(ngModel)]="clienteSeleccionado.comentario" name="comentario" class="form-control" id="descripcion"></textarea>
-        </div>
-        <button type="submit" class="btn btn-success" >Guardar</button>
-        <button type="button" class="btn btn-secondary ms-2" (click)="clienteSeleccionado = null">Cancelar</button>
-      </form>
-    </div> -->
-
     <div class="container my-5">
       <h2 class="text-center mb-4">Listado de los Clientes</h2>
     
@@ -63,19 +8,23 @@
             <tr>
               <th scope="col">ID</th>
               <th scope="col">Nombre</th>
+              <th scope="col">Telefono</th>
               <th scope="col">Correo</th>
-              <th scope="col">Mensaje</th>
+              <th scope="col">Mensaje</th>         
               <th scope="col">Comentarios</th>
               <th scope="col">Acciones</th>
+             
             </tr>
           </thead>
           <tbody>
             <tr *ngFor="let c of clientes">
               <th scope="row">{{ c.id }}</th>
               <td>{{ c.nombre }}</td>
+              <td>{{c.telefono}}</td>
               <td>{{ c.correo }}</td>
               <td>{{ c.mensaje }}</td>
               <td>{{ c.comentario }}</td>
+              
               <td>
                 <button class="btn btn-warning btn-sm me-2" (click)="editarCliente(c)">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
