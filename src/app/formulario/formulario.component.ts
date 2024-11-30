@@ -7,18 +7,31 @@ import { Cliente } from '../cliente';
   templateUrl: './formulario.component.html',
   styleUrl: './formulario.component.css'
 })
+
 export class FormularioComponent implements OnInit{
   id: number=0;
 nombre: string ='';
 correo : string='';
 mensaje: string ='';
 comentario:string='';
-telefono: number = 0;
+telefono: number | null = null;
+
+
 constructor (private clienteService : ClienteService){}
 
   ngOnInit(): void {   
   }
   addCliente() {
+    if (!this.telefono || this.telefono === 0) {
+      alert('Por favor, ingresa un número de teléfono válido.');
+      return;
+    }
+  
+    if (!this.correo || !this.correo.includes('@')) {
+      alert('Por favor, ingresa un correo electrónico válido.');
+      return;
+    }
+  
     
     let cliente = new Cliente(this.id, this.nombre, this.correo, this.mensaje,this.comentario,this.telefono);
     console.log(cliente);
@@ -43,7 +56,7 @@ constructor (private clienteService : ClienteService){}
     this.correo = '';
     this.mensaje = '';
     this.comentario='';
-    this.telefono=0;
+    this.telefono= null;
   }
   }
 

@@ -1,0 +1,8 @@
+table.table-bordered th, 
+table.table-bordered td {
+  border: 1px solid #000000; /* Cambia el grosor y color del borde */
+}
+
+table.table-bordered {
+  border-collapse: collapse; /* Asegura que los bordes no se dupliquen */
+}
