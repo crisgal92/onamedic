@@ -21,7 +21,16 @@ form {
 .btn-custom{
     background-color: #3b9f9c;
     color: #fff;
+    
+    
 }
+
+.btn-custom:hover{
+    transition: all 0.3s  ease;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
 
 .container-fluid-1{
     margin: 25px;
