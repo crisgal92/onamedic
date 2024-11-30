@@ -13,7 +13,7 @@ nombre: string ='';
 correo : string='';
 mensaje: string ='';
 comentario:string='';
-telefono: number =0;
+telefono: number = 0;
 constructor (private clienteService : ClienteService){}
 
   ngOnInit(): void {   

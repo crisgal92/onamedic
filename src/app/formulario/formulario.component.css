@@ -16,6 +16,8 @@ form {
     border-radius: 8px;
 }
 
+
+
 .btn-custom{
     background-color: #3b9f9c;
     color: #fff;
@@ -24,6 +26,10 @@ form {
 .container-fluid-1{
     margin: 25px;
 }
+iframe {
+    width: 70%;
+    max-height: 500px;
+  }
 
 @media screen and (max-width: 600px){
     .container-fluid-1{
@@ -31,5 +37,9 @@ form {
         flex-direction: column;
         width: 120%;
     }
+    iframe {
+        width: 90%;
+        max-height: 500px;
+      }
     
 }
